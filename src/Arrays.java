@@ -7,6 +7,8 @@ public class Arrays {
         intArr[1] = 968;
         intArr[2] = 675;
 
+        System.out.println(java.util.Arrays.toString(intArr));
+
         String[] strArr = new String[] {
                 "ABC",
                 "DEF",

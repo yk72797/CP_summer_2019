@@ -2,10 +2,11 @@ public class Conditions {
 
     public static void main(String[] args) {
         boolean p = true;
-        boolean q = false;
+        boolean q = true;
 
         boolean t = p && q; // AND
         boolean v = p || q; // OR
+        boolean z = p ^ q; // XOR
         boolean w = p && !q; // AND NEGATION
 
         if (t) {

@@ -1,12 +1,13 @@
 public class Hello {
-    public static void main(String[] inputargs) {
+    public static void main(String[] inargs) {
         System.out.println("Hello!!!");
 
         Integer a = 5;
         Integer b, c;
         b = a;
         c = b + 4;
-        c = new Integer(5);
+        //c = new Integer(5);
+        c = 5;
 
         if (c == a) System.out.println("c==a");
         if (c.equals(a)) System.out.println("c equals a");
@@ -18,14 +19,17 @@ public class Hello {
         String s2 = null;
 
         String s3 = s1.toUpperCase();
+        System.out.println(s3);
+        s1.indexOf("a");
+//        s1.0
 
         System.out.println(s3.charAt(1));
         s1 = "Hello John";
 
-        int j = s1.indexOf("rJo");
+        int j = s1.indexOf("Jo");
         System.out.println(j);
 
-        System.out.println(s1.substring(3,6));
+        System.out.println(s1.substring(3,8));
 
 
     }

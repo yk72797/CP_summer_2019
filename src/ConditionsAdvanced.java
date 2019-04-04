@@ -10,7 +10,7 @@ public class ConditionsAdvanced {
                 : "A is not greater than 4";
         System.out.println(astr);
 
-        String v = "C";
+        String v = "A";
 
         switch (v) {
             case "A":
@@ -27,7 +27,8 @@ public class ConditionsAdvanced {
         myMap.put("B", "v is B");
         myMap.put("C", "v is C");
 
-        v = "A";
+        //myMap.
+        v = "D";
         String res = myMap.get(v);
         if (res==null) {
             System.out.println(v + " is not in map");
